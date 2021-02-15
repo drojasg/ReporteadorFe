@@ -1,0 +1,372 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello world</mj-title>
+    <mj-font name="Roboto Condensed" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="gothamLigth, Roboto Condensed, Roboto, Helvetica"></mj-all>
+      <mj-class name="big" font-size="20px" />
+      <mj-text font-weight="300" color="#000000"></mj-text>
+      <mj-section padding="0px"></mj-section>
+      <mj-class name="orange" color="#F78F1E" />
+      <mj-class name="grey" color="#616161" />
+      <mj-class name="azure" color="#01b0ef" />
+      <mj-class name="paddingFull" padding="10px 0px" />
+      <mj-class name="paddingMid" padding="10px 5px" />
+    </mj-attributes>
+    <mj-style>
+      p{margin: 0px 0;} .op7 {opacity:0.7;} .orange-color{color:#F78F1E;} .grey-color{color:#616161} .red-color{color:red} .azure-color{ color: #01b0ef} .border-number{ border: 1px solid #000000; padding: 5px;} .text-small{font-size: 10px } .tachado{text-decoration:line-through;}
+      @font-face { font-family: 'gothamLigth'; src: url(https://onlinebookingspr.palaceresorts.com/public/fonts/GothamHTF-Light.otf); }
+
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image css-class="op7" mj-class="paddingFull" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/images/Beach_Palace.jpg" fluid-on-mobile="true"></mj-image>
+        <mj-text align="center" mj-class="big">Thank you for choosing {propiedad}.</mj-text>
+        <mj-text align="center" mj-class="orange big"> Unforgettable vacation ahead.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width">
+      <mj-column vertical-align="top">
+        <mj-text align="center">
+          <b><p>Guest <span class="orange-color">Information</span></p></b>
+        </mj-text>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p class="grey-color">Name: </p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p>{nombre}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p class="grey-color">Phone Number:: </p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p>{telefono}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p class="grey-color">Email: </p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p>{correo}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p class="grey-color">Personalized Request: </p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p>{requerimiento_especial}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p class="grey-color">Amount Paid: </p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="left" padding="5px">
+                <p>{moneda} ${precio_total}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-text align="center">
+          <p>*Rooms are assigned at check-in and special request are subject to availability.</p>
+        </mj-text>
+        <mj-text align="center">
+          <p>A credit card must be provided at check in for room incidentals.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="top">
+        <mj-text align="center">
+          <b><p style="padding-bottom:5px" >Your Hotel <span class="orange-color">Confirmation Number</span></p></b>
+
+          <p class="border-number">{codigo_confirmacion}</p>
+        </mj-text>
+        <mj-image mj-class="paddingFull" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/guestPalace.png" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" padding="5px">
+          <p>All payments in US dollars only. Any applicable currency conversion rates are guests responsibility.</p>
+        </mj-text>
+        <mj-text align="center" padding="5px">
+          <p>It is guests responsibility to notify of and pay in advance for all people in room.</p>
+        </mj-text>
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+        <mj-text align="center" padding="10px 0px 10px 0px">
+          <b><p>Booking <span class="orange-color">Information.</span></p></b>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-group>
+        <mj-column padding="0px" border-right="1px solid #eeeeee">
+          <mj-text align="center" padding="10px 0px 10px 0px">
+            <p>Arrival Date:</p>
+            <p>{check_in_fecha}</p>
+          </mj-text>
+        </mj-column>
+        <mj-column border-right="1px solid #eeeeee">
+          <mj-text align="center" padding="10px 0px 10px 0px">
+            <p>Departure Date:</p>
+            <p>{check_out_fecha}</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column border-right="1px solid #eeeeee">
+          <mj-text align="center" padding="10px 0px 10px 0px">
+            <p>Check-In Time:</p>
+            <p>{check_in_tiempo}</p>
+          </mj-text>
+        </mj-column>
+        <mj-column border-right="1px solid #eeeeee">
+          <mj-text align="center" padding="10px 0px 10px 0px">
+            <p>Check-In Time:</p>
+            <p>{check_out_tiempo}</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column border-right="1px solid #eeeeee">
+          <mj-text align="center" padding="10px 0px 10px 0px">
+            <p>No. of Nights:</p>
+            <p>{noches}</p>
+          </mj-text>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text align="center" padding="10px 0px 10px 0px">
+            <p>No. of Rooms:</p>
+            <p>{numeros_cuartos}</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" padding="5px">
+          <p>Round Trip Airport Transportation Included.</p>
+        </mj-text>
+        <mj-text align="center" padding="5px">
+          <p>Please note that in order to enjoy this benefit, guests must provide their flight details and number of passengers no later than 7 days prior to arrival.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section vertical-align="middle" background-color="#ffffff" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image mj-class="paddingFull" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/room2.jpg" alt=""></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text align="center">
+          <b><p>Pay Now and Save (Non Refundable Rate)</p></b>
+        </mj-text>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="center" padding="5px">
+                <p>Room 1: </p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="center" padding="5px">
+                <p>{nombre_cuarto}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="center" padding="5px">
+                <p>Adults: {adults}</p>
+              </mj-text>
+            </mj-column>
+            <mj-column>
+              <mj-text align="center" padding="5px">
+                <p>Teens: {teens}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-section>
+          <mj-group>
+            <mj-column>
+              <mj-text align="center" padding="5px">
+                <p>Infants: {infants}</p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column vertical-align="middle">
+        <mj-text align="center">
+          <b><p >A WHOLE NEW <span class="orange-color">LEVEL OF ALL INCLUSIVE</span></p></b>
+        </mj-text>
+        <mj-image mj-class="paddingFull" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/amenities.png"></mj-image>
+        <mj-text>
+        </mj-text>
+        <mj-text mj-class="paddingFull" align="justify">
+          <p>Expect only the highest standards as you experience luxurios accommodations with over-the-top inclusions, such as 24-hour room service, unlimited free calls to the Continental US, Canada and Mexico, free WiFi, top-shelf drinks and more. All
+            you need to do is sit back and enjoy.</p>
+
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image mj-class="paddingMid" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/happy.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center"> <b><p>Additional <span class="orange-color">Benefits</span></p></b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image mj-class="paddingMid" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/honey.png"></mj-image>
+        <mj-text align="center">
+          <b><p>Complimentary <span class="orange-color">Honeymoon Package</span></p></b>
+        </mj-text>
+        <mj-text mj-class="paddingMid">
+          <ul>
+            <li>
+              Mini honeymoon cake
+            </li>
+            <li>
+              Specialty petit fours
+            </li>
+            <li>
+              Two honeymoon t-shirts
+            </li>
+            <li>
+              Breakfast in bed (upon request)
+            </li>
+          </ul>
+        </mj-text>
+        <mj-text align="center">
+          <p class="text-small">Marriage certificate is mandatory as proof that the couple was married within the past year.</p>
+          <p class="text-small">Promotion may change without notice until full payment is received.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image mj-class="paddingMid" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/transfer.png"></mj-image>
+        <mj-text align="center">
+          <b><p>Complimentary <span class="azure-color">Airport Transfer</span></p></b>
+        </mj-text>
+        <mj-text>
+          <p>Enjoy comfortable transportation from the airport to the resorts, and back, once your vacation ends.</p>
+        </mj-text>
+        <mj-text align="center">
+          <p class="text-small">Plase note that guests must procide their flight details and number of passengers <b>no later than 7 days prior to arrival.</b></p>
+        </mj-text>
+        <mj-button href="#" background-color="#ffffff" font-size="13px" padding="10px 25px" color="#F78F1E" border="1px solid #F78F1E">
+          Book Transfer
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" full-width="full-width">
+      <mj-column>
+        <mj-text> <b><p>CANCELLATIONS <span class="orange-color">POLICY</span></p></b></mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="#ffffff" full-width="full-width">
+      <mj-column>
+        <mj-text padding-bottom="30px" align="justify">
+          <p class="text-small">
+            {politica_cancelacion}
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-button href="http://bengine-admin-qa.clever.palace-resorts.local/" background-color="#ffffff" font-size="13px" padding="10px 25px" color="#F78F1E" border="1px solid #F78F1E">
+          PRINT
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-button href="http://bengine-admin-qa.clever.palace-resorts.local/" background-color="#ffffff" font-size="13px" padding="10px 25px" color="#F78F1E" border="1px solid #F78F1E">
+          SAVE
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-button href="http://bengine-admin-qa.clever.palace-resorts.local/" background-color="#ffffff" font-size="13px" padding="10px 25px" color="#F78F1E" border="1px solid #F78F1E">
+          SHARE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image mj-class="paddingFull" width="300px" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/qr.png" />
+        <mj-spacer height="50px" />
+        <mj-image mj-class="paddingFull" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/footerOne.png" />
+        <mj-image mj-class="paddingFull" src="https://s3.amazonaws.com/webfiles_palace/clever-qa/booking_engine/footerTwo.png" />
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

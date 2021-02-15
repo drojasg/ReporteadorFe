@@ -1,0 +1,122 @@
+.clv-card {
+  position: relative;
+  margin: 10px;
+}
+
+.clv-transition-show {
+  animation-name: swing-lefth;
+  animation-iteration-count: 1;
+  overflow: auto;
+}
+
+.clv-transition-hide {
+  animation-name: swing-right;
+  animation-iteration-count: 1;
+  overflow: auto;
+}
+
+.clv-card-content {
+  width: 100%;
+  padding: 24px;
+  overflow: auto;
+  left: 0;
+  top: 100%;
+  /* height: 100%; */
+  z-index: 3;
+}
+
+.clv-card-content-hide {
+  overflow: hidden;
+}
+
+.clv-card-title {
+  display: flex;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.clv-reveal-show {
+  padding: 24px;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  left: 0;
+  top: 0%;
+   height: 100%;
+  /* z-index: 1003; */
+  opacity: 1;
+  background-color: #fafafa;
+  display: none;
+}
+
+@-webkit-keyframes swing-lefth {
+  1% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes swing-lefth {
+  1% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes swing-right {
+  1% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes swing-right {
+  1% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+/* Medium only */
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .clv-card-content {
+    padding: 8px;
+  }
+}
+
+/* Small only */
+
+@media screen and (max-width: 600px) {
+  .clv-card-content {
+    padding: 8px;
+  }
+
+  .clv-card {
+    position: relative;
+    margin: 4px;
+  }
+}

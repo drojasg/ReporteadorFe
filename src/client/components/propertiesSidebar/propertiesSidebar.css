@@ -1,0 +1,10 @@
+#propertiesSidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 993;
+    background-color: #fff;
+    overflow-y: scroll;
+    padding: 1rem;
+}

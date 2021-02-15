@@ -1,0 +1,7 @@
+ #cssGaleryServices .modal-content{
+    position: unset !important;
+    height:unset !important;
+    max-height: unset !important;
+    width: unset !important;
+    overflow-y: unset !important;
+}

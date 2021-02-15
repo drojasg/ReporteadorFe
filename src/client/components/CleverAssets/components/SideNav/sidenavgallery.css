@@ -1,0 +1,86 @@
+
+.gallery-overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: rgba(16, 16, 16, 0.75);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.gallery-overlay-content {
+    position: relative;
+    top: 0;
+    width: 100%;
+    /* height: 100%;*/
+    margin-top: 15px;
+    background-color: rgb(243, 241, 241);
+    margin-left: 10%;
+}
+
+
+.closebtn {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+ .closebtn {
+    padding: 0;
+    font-size: 36px!important;
+    color: #9e9898;
+    display: block;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: azure;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.side-divider-gallery {
+    height: 1px;
+    overflow: hidden;
+    background-color: #cec6c6;
+}
+
+.footer-side-right-nav{
+    position: absolute;
+    bottom: 5px;
+    right: 120px;
+}
+
+/*.gallery-overlay a:hover, .gallery-overlay a:focus {
+  color: #f1f1f1;
+} */
+
+.gallery-overlay .closebtn {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    font-size: 60px;
+}
+
+.content-assets-01 {
+    padding-right: 115px;
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-height: 450px) {
+  /*.gallery-overlay a {font-size: 20px}
+  .gallery-overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px; *
+  }*/
+}

@@ -1,0 +1,58 @@
+:root {
+  --primary: #1e9198;
+}
+
+#cancel-reservation-label {
+  text-transform: inherit;
+  padding-bottom: 1rem;
+}
+
+#cancel-reservation-textarea {
+  resize: none;
+  width: 100%;
+  height: 10rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+a > i.material-icons:hover {
+  cursor: pointer;
+  color: var(--primary) !important;
+  transition: 0.2s;
+  animation: ease-in;
+}
+
+#table-booking {
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
+
+i.left {
+  margin-right: 1rem;
+}
+
+.tabs > .tab:hover {
+  cursor: pointer;
+}
+
+.reservation-details > tbody > tr > th,
+.reservation-details > tbody > tr > td {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+
+.reservation-details > tbody > tr {
+  border-bottom: 0;
+}
+
+.reservation-details > tbody > tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.font-size-1 {
+  font-size: 1rem !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}

@@ -1,0 +1,15 @@
+.card.header {
+  margin-bottom: 0px;
+  padding: 12px 24px;
+  background-color: #01536d;
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.card.header > .header-controls {
+  position: absolute;
+  right: 24px;
+  top: 9px;
+}

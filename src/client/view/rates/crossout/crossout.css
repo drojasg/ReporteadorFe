@@ -1,0 +1,12 @@
+.card-panel {
+    margin: 0 0.75rem;
+}
+
+.panel-header{
+    font-size: 24px;
+}
+
+#saveBtn {
+    display: flex !important;
+    justify-content: flex-end !important;
+}

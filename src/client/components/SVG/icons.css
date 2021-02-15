@@ -1,0 +1,47 @@
+.contentIcons{
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #11ae92;
+    /* width: 50%;
+    height: 50%; */
+}
+.dataIcons {
+    /* width: 50%;    */
+    padding: 15px 15px; 
+    margin: 8px 0;
+}
+
+.contentIcons li{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border-top: 0px solid !important;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+}
+
+.styleSvgIcon:hover{
+    filter: invert(.5) brightness(1%) sepia(10%) grayscale(10%);
+    transform: scale(1.5);
+    /* padding: 20px; */
+    transition:transform 0.4s ease-out, fill 0.1s; 
+}
+.contentIcons li .contentSVG{
+    padding: 20%;
+    border: 0px solid !important;
+    height: 0; 
+    width: 100%; 
+}
+.styleSvgIcon {
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+}
+
+.descriptionICON{
+    margin-top: 20px !important;
+    height: auto; 
+    width: auto; 
+    left: 0; 
+    top: 0; 
+}

@@ -1,0 +1,39 @@
+.modal-action .modal
+{
+    overflow: hidden;
+}
+
+.modal-action .modal .modal-content
+{
+    height: calc(100% - 113px);
+    overflow-x: hidden;
+    word-break: break-all;
+}
+
+.modal-action .modal .modal-footer
+{
+    height: max-content;
+}
+
+.modal-action .modal ::-webkit-scrollbar 
+{
+    width: 10px;
+    height: 10px;
+}
+
+.modal-action .modal ::-webkit-scrollbar-track 
+{
+    background-color: lightgray; 
+    border-radius: 0px;
+}
+
+.modal-action .modal ::-webkit-scrollbar-thumb 
+{
+    background-color: gray;
+    border-radius: 5px; 
+}
+
+.modal-action .modal ::-webkit-scrollbar-thumb:hover 
+{
+    background-color: #a2855c;
+}

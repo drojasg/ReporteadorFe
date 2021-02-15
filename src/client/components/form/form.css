@@ -1,0 +1,40 @@
+.form .outside 
+{
+    display: none;
+}
+
+.form .outside 
+{
+    display: none;
+}
+
+.form fieldset
+{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+    margin: 0px;
+    border: 1px solid lightgray;
+}
+
+.form fieldset legend
+{
+    color: #01536d;
+}
+
+.form .form-table tr
+{
+    border: none;
+}
+
+.form .form-table .input-field,
+.form .form-table .input-field input
+{
+    margin: 0px;
+}
+
+.form .label-inline
+{
+    line-height: 5;
+}

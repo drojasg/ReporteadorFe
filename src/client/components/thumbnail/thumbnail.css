@@ -1,0 +1,57 @@
+.thumbnail .card .card-image img{
+    height:150px;
+    width: 100%;
+}
+
+.thumbnail .card .card-header
+{
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+}
+
+.thumbnail .card .card-content h5
+{
+    margin: 0px 0px 8px 0px;
+    color: #01536d;
+    text-transform: uppercase;
+}
+
+.thumbnail .card .card-content h6
+{
+    margin: 0;
+    color: #01536d;
+    text-transform: uppercase;
+}
+
+.thumbnail .sticky-action .card-reveal h5
+{
+    margin: 0px 0px 8px 0px;
+    color: #01536d;
+    text-transform: uppercase;
+}
+
+.thumbnail .sticky-action .card-reveal h6
+{
+    margin: 0px 0px 6px 0px;
+    color: #01536d;
+    text-transform: uppercase;
+}
+
+.thumbnail .sticky-action .card-reveal p
+{
+    margin: 0px;
+}
+
+.thumbnail .sticky-action .card-reveal
+{
+    overflow: hidden;
+}
+
+.thumbnail .card .card-icon
+{
+    background-color: #01536d;
+    text-align: center;
+    padding: 20%;
+    border-radius: 3px;
+    color: white,
+}

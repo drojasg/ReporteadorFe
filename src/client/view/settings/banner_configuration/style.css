@@ -1,0 +1,48 @@
+label {
+    text-transform: capitalize;
+    transform: translateY(-14px) scale(.8) !important;
+}
+
+.input-field > input {
+    margin-top: 4px !important;
+}
+
+.file-field.input-field {
+    margin-top: 0 !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.form-section-title {
+    font-weight: 600;
+}
+
+.modal-content {
+    padding-bottom: 24px !important;
+}
+
+.d-none, #id-modalBannerForm > div.modal-footer {
+    display: none;
+}
+
+.channel-radiobuttons {
+    display: flex;
+}
+
+.channel-radiobuttons > label {
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.channel-radiobuttons > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: 1em;
+}
+
+.disabled {
+    color: #dadada!important
+}

@@ -1,0 +1,24 @@
+.reports-radiobuttons {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.reports-radiobuttons > label {
+  font-size: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.reports-radiobuttons > p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-right: auto;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
